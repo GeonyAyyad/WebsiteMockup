@@ -24,6 +24,7 @@
     "express": "^4.15.4",
     "radium": "^0.24.0",
     "react-animations": "^1.0.0",
+    "react-awesome-button": "^5.0.0",
     "react-bootstrap": "^0.32.1",
     "react-burger-menu": "^2.4.1",
     "react-sticky-footer": "0.1.0-rc3"

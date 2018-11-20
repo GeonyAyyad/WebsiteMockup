@@ -8,6 +8,8 @@ import { Well, Button, Jumbotron, Col, SplitButton, MenuItem, Glyphicon, ButtonT
 import { slideInLeft, slideInRight } from 'react-animations';
 import Radium, {StyleRoot} from 'radium';
 import Image from 'react-image-resizer';
+import { AwesomeButton } from 'react-awesome-button';
+import 'react-awesome-button/dist/styles.css';
 const styles = {
 slideInLeft: {
 animation: 'x 1s',
@@ -29,6 +31,8 @@ return (
   left
   pageWrapId={ "page-wrap" }
   outerContainerId={ "outer-container" } >
+
+  <img width={200} height={100} alt="900x500" src="./images/blessedsacrement.png" />
 
   <a id="home" className="menu-item" href="/">Home</a>
   <a id="about" className="menu-item" href="/about">About</a>
@@ -143,6 +147,7 @@ return (
     </li>
   </ul>
 </div>
+<AwesomeButton type="facebook">Button</AwesomeButton>
 </StickyFooter>
   </main>
 </div>
