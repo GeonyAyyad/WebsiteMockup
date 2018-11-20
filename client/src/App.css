@@ -27,10 +27,106 @@
   --button-anchor-color-hover: #0d4a7f;
   --button-anchor-border: none;
   }
+  .service-item-heading {
+    font-size: 29px;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 10px;
+}
 
   .service-item-outer .gray {
     background: #53555c;
     color: #fff;
+}
+
+.home-events-heading {
+  font-size: 45px;
+  font-family: "Baskerville Italic";
+  margin-bottom: 32px;
+}
+
+.event-item-month span {
+  font-size: 21px;
+  font-family: "Brandon Grot Bold";
+  line-height: 1;
+  text-transform: uppercase;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.event-right-item {
+  height: auto;
+  min-height: 100px;
+  background: #fff;
+  width: 100%;
+  padding: 15px 15px 15px 115px;
+}
+
+.event-item-date, .event-item-month {
+  width: 100px;
+  height: 50%;
+  color: #fff;
+  text-align: center;
+  display: table;
+}
+.event-item-date span {
+  font-size: 26px;
+  font-family: "Baskerville Italic";
+  line-height: 1;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  color: #0e4f88;
+  box-sizing: border-box;
+
+}
+.event-right-item p {
+  font-size: 18px;
+  font-family: "Baskerville Regular";
+  line-height: 1.2em;
+}
+
+.small-church .event-item-month {
+  background: #c5841e;
+}
+
+.event-item-date, .event-item-month {
+  width: 100px;
+  height: 50%;
+  color: #fff;
+  text-align: center;
+  display: table;
+}
+
+.event-right-item p {
+  font-size: 18px;
+  font-family: "Baskerville Regular";
+  line-height: 1.2em;
+}
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.service-item-outer .orange {
+  background: #b4c4dc;
+  color: #fff;
+}
+
+.service-item-heading span {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+}
+
+.service-item p {
+  font-size: 20px;
+  font-family: 'Satisfy', cursive;
+  margin: 0 25px;
+  line-height: 1em;
 }
 
 .App-logo {
@@ -55,6 +151,12 @@
   color: white;
 }
 
+.Calendar-section {
+  background-color: #e9ecf0;
+  height: auto;
+  padding: 20px;
+  color: white;
+}
 
 .App-intro {
   font-size: large;
