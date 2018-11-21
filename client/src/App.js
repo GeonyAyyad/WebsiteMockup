@@ -54,7 +54,7 @@ return (
                 <Row className="show-grid">
                 <Col xsHidden md={4} />
                 <Col xs={4} md={4}>
-            <AwesomeButton type="primary">ENTER TEXT </AwesomeButton>
+            <AwesomeButton type="primary" href="https://blessedsacrament-brooklyn.org/contact-us-directions/">CONTACT US </AwesomeButton>
             </Col>
             <Col xs={4} md={4}>
         <AwesomeButton type="primary" href="https://www.pray.com/join-giving/?gclid=Cj0KCQiA_s7fBRDrARIsAGEvF8T0N0MfgWrQDW_D_GLjKW_5LujlU_015j0MUgGTVYwyUsW2FROZ2x4aAjcgEALw_wcB">GIVE </AwesomeButton>
@@ -90,8 +90,8 @@ return (
     <p>Our doors remain wide open all day long for everyone to find strength in the spiritual life.</p>
     </Carousel.Caption>
     </Carousel.Item>
-    </Carousel>;
-    <div className="container">
+    </Carousel>
+    {/* <div className="container">
         <StyleRoot>
         <div className="test" style={styles.slideInLeft}>
             <br></br>
@@ -109,7 +109,7 @@ return (
         </div>
         
         </StyleRoot>
-    </div>
+    </div> */}
 </div>
 {/* church event section */}
 <div className="Event-section">
@@ -181,6 +181,7 @@ return (
                 </div>
                 
                 <a class="btn btn-gray" href="https://blessedsacrament-brooklyn.org/calendar/">View All Events</a>
+                
                 <br />
                 <br />
             </div>
@@ -189,41 +190,55 @@ return (
 </div>
 </div>
 </div>
+{/* right side section */}
 {/* church calendar section */}
 <div className="Calendar-section">
 <div className="container">
 <h1>Hello</h1>
 <div className="content center"></div>
-<h2 class="weekend-services-heading" style={styles.slideInRight} >weekend <span>Services</span></h2>
+<h2 class="weekend-services-heading" style={styles.slideInRight} >weekend service<span>HI</span></h2>
 <div class="service-item-outer">
     <div class="row">
         
         <div class="col-sm-4 col-md-push-2">
             <div class="service-item gray">
                 <div class="service-item-image">
-                    <img class="img-responsive" src="https://go2cornerstone.com/wp-content/uploads/2018/09/main1.jpg" />
+                    <img class="img-responsive" src="https://images.pexels.com/photos/65922/church-altar-building-germany-65922.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
                 </div>
-                <h2 class="service-item-heading">weekend services<br /><span>Sanctuary</span>
+                <h2 class="service-item-heading">weekend services<br /><span>HI</span>
                 </h2>
-                <p class="service-time">Saturday 5:00<br />
+                <p class="service-time">
+                    Saturday<br />
+                    English: 8:30 a.m.<br />
+                    English: 4:00 p.m.<br />
+                    Spanish: 7:00 p.m.<br />
+                    Confession: Saturdays 9 a.m to 10 a.m.<br />
                     <br />
-                    Sunday 9:00 10:20 & 11:40<br />
+
+                    Sunday<br />
+                    English: 8:30 a.m.<br />
+                    Spanish: 9:45 a.m.<br />
+                    Spanish: 11:15 a.m.<br />
+                    English: 12:45 p.m.
+
+<br />
                     <br />
-                    Menifee Campus Sunday 10:30</p>                        <p>High energy music fuels worship in our largest weekend venue.</p>
+                    <br />
+                    </p>                      
                 </div>
             </div>
             
             <div class="col-sm-4 col-md-push-2">
                 <div class="service-item orange">
                     <div class="service-item-image">
-                        <img class="img-responsive" src="https://go2cornerstone.com/wp-content/uploads/2018/09/classic-1.jpg" />
+                        <img class="img-responsive" src="https://images.pexels.com/photos/372326/pexels-photo-372326.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
                     </div>
-                    <h2 class="service-item-heading">weekend services<br/><span>Classic</span>
+                    <h2 class="service-item-heading">weekday service<br/><span>HI</span>
                     </h2>
-                    <p class="service-time">Sundays 9:00</p>                        <p>Classic and timeless contemporary Christian music fills this venue appealing to all generations.</p>
-                    <p>&nbsp;</p>
-                    <p>&nbsp;</p>
-                    <p>&nbsp;</p>
+                    <p class="service-time">Monday-Friday<br />
+                      English: 8:30 a.m.<br />
+                      Spanish: 7:00 p.m<br />
+                    </p>                        
                 </div>
             </div>
         </div>
@@ -234,7 +249,7 @@ return (
             <div class="col-sm-4">
                 <div class="service-item gray">
                     <div class="service-item-image">
-                        <img class="img-responsive" src="https://go2cornerstone.com/wp-content/uploads/2018/09/infants-1.jpg" />
+                        <img class="img-responsive" src="https://images.pexels.com/photos/764681/pexels-photo-764681.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
                     </div>
                     <h2 class="service-item-heading">Children's Club<br /><span>Weekly Youth Meetings</span>
                     </h2>
@@ -246,25 +261,23 @@ return (
             <div class="col-sm-4">
                 <div class="service-item orange">
                     <div class="service-item-image">
-                        <img class="img-responsive" src="https://go2cornerstone.com/wp-content/uploads/2018/09/kfifth1.jpg" />
+                        <img class="img-responsive" src="https://images.pexels.com/photos/1024900/pexels-photo-1024900.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" />
                     </div>
-                    <h2 class="service-item-heading">family ministry<br /><span>K-FIFTH</span>
+                    <h2 class="service-item-heading">weekly prayer group<br /><span>HI</span>
                     </h2>
-                    <p class="service-time">During all weekend services.</p>                        <p>Elementary students have a blast discovering God’s plan for their lives in this safe and fun environment.</p>
+                    <p class="service-time">Tuesday: Cristo La Roca,<br /> 7:30 p.m., church basement <br /><br />
+                    Thursday Cursillo de Cristiandad,<br />7:30 p.m., chapel <br /><br />
+                    Sunday: Spanish Legion of Mary,<br /> 10 a.m., church basement</p> 
                 </div>
             </div>
             <div class="col-sm-4">
                 <div class="service-item gray">
                     <div class="service-item-image">
-                        <img class="img-responsive" src="https://go2cornerstone.com/wp-content/uploads/2018/09/highschool1.jpg" />
+                        <img class="img-responsive" src="https://images.pexels.com/photos/1388030/pexels-photo-1388030.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" />
                     </div>
-                    <h2 class="service-item-heading">family ministry<br /><span>MIDDLE - HIGH SCHOOL</span>
+                    <h2 class="service-item-heading">spanish bereavement group<br /><span>HI</span>
                     </h2>
-                    <p class="service-time">HS: Sundays at 10:20 AM<br />
-                        MS: Sundays at 10:20 AM<br />
-                        <br />
-                        Youth Midweek<br />
-                        Tuesdays at 6:30PM</p>                        <p>Students build strong friendships as they learn to live for something greater than themselves.</p>
+                    <p class="service-time">Last Monday each month, 7:30 p.m., chapel</p>                      
                     </div>
                 </div>
             </div>
@@ -285,32 +298,34 @@ padding: "2rem"
 }}
 >
 <div className="menu-footer-container">
+  <div className="table1">
     <ul id="menu-footer" className="menu">
-        <li id="menu-item-48" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-48">
+        <li id="menu-item" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-48">
             <a href="https://blessedsacrament-brooklyn.org/mass-times/">Mass Times</a>
         </li>
-        <li id="menu-item-51" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-51">
+        <li id="menu-item" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-51">
             <a href="https://blessedsacrament-brooklyn.org/about-us/">About Us</a>
         </li>
-        <li id="menu-item-771" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-771">
+        <li id="menu-item" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-771">
             <a href="https://blessedsacrament-brooklyn.org/privacy-policy/">Privacy Policy</a>
         </li>
-        <li id="menu-item-49" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-49">
+        <li id="menu-item" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-49">
             <a href="https://blessedsacrament-brooklyn.org/contact-us-directions/">Contact Us / Directions</a>
         </li>
-        <li id="menu-item-62" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-62">
+        <li id="menu-item" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-62">
             <a href="https://blessedsacrament-brooklyn.org/sacraments/">Sacraments</a>
         </li>
-        <li id="menu-item-47" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-47">
+        <li id="menu-item" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-47">
             <a href="https://blessedsacrament-brooklyn.org/religious-education/">Religious Education</a>
         </li>
-        <li id="menu-item-50" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-50">
+        <li id="menu-item" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-50">
             <a href="https://blessedsacrament-brooklyn.org/bulletins/">Bulletins</a>
         </li>
-        <li id="menu-item-46" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-46">
+        <li id="menu-item" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-46">
             <a href="https://blessedsacrament-brooklyn.org/blessed-sacrament-school/">School</a>
         </li>
     </ul>
+    </div>
     
 </div>
 </StickyFooter>
