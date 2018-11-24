@@ -11,12 +11,7 @@ const style = {
 
 const EventSection = props =>
   <div>
-      <div className="Event-section">
-    <div className="container">
-        <div class="content">
-            <div class="row">
-                
-                <div class="col-sm-6">
+      
                     <div class="home-event-left">
                         <h2 class="home-events-heading">
                         upcoming <span>Events</span>
@@ -85,11 +80,6 @@ const EventSection = props =>
                 <br />
             </div>
         </div>
-    </div>
-</div>
-</div>
-</div>
-  
-  </div>;
+    ;
 
 export default EventSection;

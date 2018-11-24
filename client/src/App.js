@@ -67,18 +67,42 @@ return (
         </Row>
     </div>
 </div>
+
 {/* introduction section */}
 <div className="Introduction-section">
     <CarouselComponent />
 </div>
+
 {/* church event section */}
-< EventSection />
+<div className="Event-section">
+    <div className="container">
+        <div class="content">
+            <div class="row">
+                <div class="col-sm-6">
+                < EventSection />
+                </div>
+            
+              <div class="col-sm-6">
+              <h1> hi </h1>
+              </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 {/* right side section */}
+
+
 {/* church calendar section */}
 < Calendar />
+
+
 {/* footer */}
 < Footer />
 </main>
+
+
 </div>
 );
 }

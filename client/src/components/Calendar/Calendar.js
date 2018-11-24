@@ -102,6 +102,8 @@ const Calendar = props =>
             </div>
         </div>
     </div>
+    <br />
+    <br />
 </div>  
   </div>;
 
