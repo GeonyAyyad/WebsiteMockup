@@ -1,5 +1,9 @@
 import React from "react";
-import StickyFooter from 'react-sticky-footer';
+import Logo from '../Logo';
+import ResizeImage from 'react-resize-image';
+import "./Footer.css";
+
+
 
 
 const style = {
@@ -13,18 +17,67 @@ const style = {
 
 const Footer = props =>
   <div>
+<footer class="footer-distributed">
 
-<div class="footer">
-  <div id="button"></div>
-<div id="container">
-<div id="cont">
-<div class="footer_center">
-	   <h3>Classy footer text</h3>
+<div class="footer-left">
+
+    <ResizeImage
+        src="/client/public/images/blessedsacrement.png"
+        alt="Logo"
+        options={{ width: 200 }}
+      />
+
+    <p class="footer-links">
+        <a href="#" class="link-1">Home</a>
+        
+        <a href="#">About Us</a>
+        
+        <a href="#">Getting Involved</a>
+        
+        <a href="#">Contact</a>
+    </p>
+
+    <p class="footer-company-name">Blessed Sacrament © 2018</p>
 </div>
+
+<div class="footer-center">
+
+    <div>
+        <i class="fa fa-map-marker"></i>
+        <p><span>198 Euclid Ave.</span> Cypress Hills, Brooklyn 11208</p>
+    </div>
+
+    <div>
+        <i class="fa fa-phone"></i>
+        <p>+1.555.555.5555</p>
+    </div>
+
+    <div>
+        <i class="fa fa-envelope"></i>
+        <p><a href="mailto:support@company.com">support@company.com</a></p>
+    </div>
+
 </div>
+
+<div class="footer-right">
+
+    <p class="footer-company-about">
+        <span>Visit our Church</span>
+        Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+    </p>
+
+    <div class="footer-icons">
+
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-github"></i></a>
+
+    </div>
+
 </div>
-</div>
-    
+
+</footer>
 </div>
 
 export default Footer;

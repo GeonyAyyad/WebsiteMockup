@@ -1,23 +1,15 @@
+import './App.css';
 import React, { Component } from 'react';
-import StickyFooter from 'react-sticky-footer';
 import { pushRotate as Menu } from 'react-burger-menu';
-import Logo from './components/Logo';
 import Footer from './components/Footer';
 import Calendar from './components/Calendar';
 import EventSection from './components/EventSection';
 import CarouselComponent from './components/CarouselComponent';
-import './App.css';
+import Hero from './components/Hero';
+import Blog from './components/Blog';
 import { Well, Button, Jumbotron, Col, SplitButton, MenuItem, Glyphicon, ButtonToolbar, Row, ButtonGroup, Carousel, DropdownButton, Dropdown  } from 'react-bootstrap';
 import { slideInLeft, slideInRight } from 'react-animations';
 import Radium, {StyleRoot} from 'radium';
-import Image from 'react-image-resizer';
-import {
-AwesomeButton,
-AwesomeButtonProgress,
-AwesomeButtonShare,
-} from 'react-awesome-button';
-import 'react-awesome-button/dist/styles.css';
-import 'react-awesome-button/dist/themes/theme-blue.css';
 const styles = {
 slideInLeft: {
 animation: 'x 1s',
@@ -28,6 +20,8 @@ animation: 'x 1.5s',
 animationName: Radium.keyframes(slideInRight, 'slideInRight')
 }
 }
+
+
 class App extends Component {
 render() {
 return (
@@ -44,34 +38,18 @@ return (
     <a id="contact" className="menu-item" href="/contact">Contact</a>
     <a onClick={ this.showSettings } className="menu-item--small" href="">Settings</a>
     <ButtonToolbar>
-    
     </ButtonToolbar>
     <a onClick={ this.showSettings } className="menu-item--small" href="">Settings</a>
-    
     </Menu>
     
     <main id="page-wrap">
-        <div className="App-header">
-            <Logo />
-            <div className="container">
-                <Row className="show-grid">
-                <Col xsHidden md={4} />
-                <Col xs={4} md={4}>
-            <AwesomeButton type="primary" href="https://blessedsacrament-brooklyn.org/contact-us-directions/">CONTACT US </AwesomeButton>
-            </Col>
-            <Col xs={4} md={4}>
-        <AwesomeButton type="primary" href="https://www.pray.com/join-giving/?gclid=Cj0KCQiA_s7fBRDrARIsAGEvF8T0N0MfgWrQDW_D_GLjKW_5LujlU_015j0MUgGTVYwyUsW2FROZ2x4aAjcgEALw_wcB">GIVE </AwesomeButton>
         
-        </Col>
-        <Col xsHidden md={4} />
-        </Row>
-    </div>
-</div>
-
+<Hero />
 {/* introduction section */}
 <div className="Introduction-section">
     <CarouselComponent />
 </div>
+
 
 {/* church event section */}
 <div className="Event-section">
@@ -83,7 +61,7 @@ return (
                 </div>
             
               <div class="col-sm-6">
-              <h1> hi </h1>
+                < Blog />
               </div>
             </div>
         </div>
@@ -97,12 +75,9 @@ return (
 {/* church calendar section */}
 < Calendar />
 
-
 {/* footer */}
 < Footer />
 </main>
-
-
 </div>
 );
 }
