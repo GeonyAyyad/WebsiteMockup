@@ -7,6 +7,7 @@ import EventSection from './components/EventSection';
 import CarouselComponent from './components/CarouselComponent';
 import Hero from './components/Hero';
 import Blog from './components/Blog';
+import Navbar from './components/Navbar';
 import { Well, Button, Jumbotron, Col, SplitButton, MenuItem, Glyphicon, ButtonToolbar, Row, ButtonGroup, Carousel, DropdownButton, Dropdown  } from 'react-bootstrap';
 import { slideInLeft, slideInRight } from 'react-animations';
 import Radium, {StyleRoot} from 'radium';
