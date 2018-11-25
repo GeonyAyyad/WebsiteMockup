@@ -1,4 +1,6 @@
 import React from "react";
+import "./Calendar.css";
+
 
 const style = {
   width: "700px",

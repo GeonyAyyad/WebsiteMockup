@@ -1,4 +1,6 @@
-import React from "react"
+import React from "react";
+import "./EventSection.css";
+
 
 const style = {
   width: "700px",

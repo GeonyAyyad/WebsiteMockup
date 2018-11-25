@@ -1,0 +1,217 @@
+/*! CSS Used from: https://go2cornerstone.com/wp-content/themes/cornerstone/assets/css/main.min.css?892d3dcf3aebf4f40a0ba4270fd1b97d ;
+ media=all */
+ @media all{
+    img{
+       border:0;
+   }
+    @media print{
+        *{
+           text-shadow:none!important;
+           color:#000!important;
+           background:transparent!important;
+           -webkit-box-shadow:none!important;
+           box-shadow:none!important;
+       }
+        img{
+           page-break-inside:avoid;
+       }
+        img{
+           max-width:100%!important;
+       }
+        p,h2{
+           orphans:3;
+           widows:3;
+       }
+        h2{
+           page-break-after:avoid;
+       }
+   }
+    *{
+       -webkit-box-sizing:border-box;
+       box-sizing:border-box;
+   }
+    *:before,*:after{
+       -webkit-box-sizing:border-box;
+       box-sizing:border-box;
+   }
+    img{
+       vertical-align:middle;
+   }
+    .img-responsive{
+       display:block;
+       width:100% \9;
+       max-width:100%;
+       height:auto;
+   }
+    h2{
+       font-family:inherit;
+       font-weight:500;
+       line-height:1.1;
+       color:inherit;
+   }
+    h2{
+       margin-top:20px;
+       margin-bottom:10px;
+   }
+    h2{
+       font-size:30px;
+   }
+    p{
+       margin:0 0 10px;
+   }
+    .row{
+       margin-left:-15px;
+       margin-right:-15px;
+   }
+    .col-sm-4{
+       position:relative;
+       min-height:1px;
+       padding-left:15px;
+       padding-right:15px;
+   }
+    @media (min-width:768px){
+        .col-sm-4{
+           float:left;
+       }
+        .col-sm-4{
+           width:33.33333333%;
+       }
+   }
+    @media (min-width:992px){
+        .col-md-push-2{
+           left:16.66666667%;
+       }
+   }
+    .row:before,.row:after{
+       content:" ";
+       display:table;
+   }
+    .row:after{
+       clear:both;
+   }
+    .center{
+       text-align:center;
+   }
+    h2{
+       margin:0;
+   }
+    p{
+       margin:0;
+       line-height:1.5em;
+       font-size:23px;
+   }
+    .main-wrapper .row{
+       margin:0;
+   }
+    @media (min-width:768px) and (max-width:1005px){
+        .service-item{
+           min-height:440px;
+       }
+   }
+    @media screen and (min-width:1006px){
+        .service-item{
+           min-height:518px;
+       }
+   }
+    .weekend-services-heading{
+       font-size:45px;
+       font-family:"Baskerville Italic";
+       margin-bottom:35px;
+   }
+    .weekend-services-heading span{
+       font-family:"Brandon Grot Bold";
+       text-transform:uppercase;
+   }
+    .service-item-outer{
+       margin-bottom:55px;
+       color:#fff;
+   }
+    @media screen and (max-width:767px){
+        .service-item-outer{
+           margin-bottom:10px;
+       }
+   }
+    .service-item{
+       padding-bottom:25px;
+   }
+    @media screen and (max-width:767px){
+        .service-item{
+           margin-bottom:10px;
+       }
+   }
+    .service-item-image{
+       margin-bottom:15px;
+   }
+    .service-item-heading{
+       font-size:29px;
+       font-family:"Baskerville Italic";
+       margin-bottom:10px;
+   }
+    @media (max-width:985px){
+        .service-item-heading{
+           font-size:18px;
+           padding:0 5px;
+       }
+   }
+    @media (max-width:768px){
+        .service-item-heading{
+           font-size:20px;
+       }
+   }
+    .service-item-heading span{
+       font-family:"Brandon Grot Bold";
+       text-transform:uppercase;
+   }
+    .service-item p{
+       font-size:20px;
+       font-family:"Baskerville Regular";
+       margin:0 25px;
+       line-height:1em;
+   }
+    .service-item .service-time{
+       margin-bottom:10px;
+   }
+    .service-item-outer .gray{
+       background:#53555c;
+       color:#fff;
+   }
+    .service-item-outer .orange{
+       background:#c5841e;
+       color:#fff;
+   }
+    @media (max-width:980px){
+        .service-item p{
+           margin:0 20px;
+       }
+   }
+    @media (max-width:768px){
+        .service-item-image img{
+           width:100%;
+       }
+   }
+    @media (max-width:640px){
+        .service-item-image img{
+           width:100%;
+       }
+   }
+    .content img{
+       max-width:100%;
+       height:auto;
+   }
+}
+/*! CSS Used fontfaces */
+@font-face{
+   font-family:"Baskerville Italic";
+   src:url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/f0bf387a-6de1-402c-a63c-04664681e924.eot#iefix");
+   src:url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/f0bf387a-6de1-402c-a63c-04664681e924.eot#iefix") format("eot"),url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/11514d41-5158-4a68-8f27-9202cc7fc001.woff") format("woff"),url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/b62c4ed0-7687-4a1b-840d-00a34f2d16a2.ttf") format("truetype"),url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/ede983d0-3356-4a76-956b-4131479e2d55.svg#ede983d0-3356-4a76-956b-4131479e2d55") format("svg");
+}
+@font-face{
+   font-family:"Brandon Grot Bold";
+   src:url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/c12a6d37-72c1-408b-9ca9-32946956c57f.eot#iefix");
+   src:url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/c12a6d37-72c1-408b-9ca9-32946956c57f.eot#iefix") format("eot"),url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/4f2d0548-c7dc-459b-a2e0-e86656a10ded.woff") format("woff"),url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/dc21d9e5-516f-4e7e-9a84-7be79a44c2dd.ttf") format("truetype"),url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/a9bdb836-ee14-494d-8c69-5617c5720992.svg#a9bdb836-ee14-494d-8c69-5617c5720992") format("svg");
+}
+@font-face{
+   font-family:"Baskerville Regular";
+   src:url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/8dc59876-75a4-4e80-bd1a-735d5f043beb.eot#iefix");
+   src:url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/8dc59876-75a4-4e80-bd1a-735d5f043beb.eot#iefix") format("eot"),url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/9df317a3-a79e-422e-b4e2-35ccd29cd5b7.woff") format("woff"),url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/32d18512-4cc1-4c1c-a041-e595f26d1b96.ttf") format("truetype"),url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/cf682c43-15a5-45c0-934e-8f899e561e1f.svg#cf682c43-15a5-45c0-934e-8f899e561e1f") format("svg");
+}

@@ -21,11 +21,7 @@ const Footer = props =>
 
 <div class="footer-left">
 
-    <ResizeImage
-        src="/client/public/images/blessedsacrement.png"
-        alt="Logo"
-        options={{ width: 200 }}
-      />
+    <img width="400" height="200" src="http://blessedsacramentva.org/wp-content/uploads/2016/07/bsccvalogo-1.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" />
 
     <p class="footer-links">
         <a href="#" class="link-1">Home</a>

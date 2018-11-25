@@ -1,637 +1,579 @@
 .App {
-  text-align: center;
+	text-align: center;
 }
-
 section{
-  text-align:center;
+	text-align:center;
 }
-
-/* event section  */
-
+/* event section */
 @media all {
 	a {
-		background: transparent;
-	}
-	a:active,
-	a:hover {
-		outline: 0;
-	}
+			background: transparent;
+ }
+	a:active, a:hover {
+			outline: 0;
+ }
 	@media print {
-		* {
-			text-shadow: none!important;
-			color: #000!important;
-			background: transparent!important;
-			-webkit-box-shadow: none!important;
-			box-shadow: none!important;
-		}
-		a,
-		a:visited {
-			text-decoration: underline;
-		}
-		a[href]:after {
-			content: " (" attr(href) ")";
-		}
-		p,
-		h2 {
-			orphans: 3;
-			widows: 3;
-		}
-		h2 {
-			page-break-after: avoid;
-		}
-	}
+			* {
+					text-shadow: none!important;
+					color: #000!important;
+					background: transparent!important;
+					-webkit-box-shadow: none!important;
+					box-shadow: none!important;
+		 }
+			a, a:visited {
+					text-decoration: underline;
+		 }
+			a[href]:after {
+					content: " (" attr(href) ")";
+		 }
+			p, h2 {
+					orphans: 3;
+					widows: 3;
+		 }
+			h2 {
+					page-break-after: avoid;
+		 }
+ }
 	* {
-		-webkit-box-sizing: border-box;
-		box-sizing: border-box;
-	}
-	*:before,
-	*:after {
-		-webkit-box-sizing: border-box;
-		box-sizing: border-box;
-	}
+			-webkit-box-sizing: border-box;
+			box-sizing: border-box;
+ }
+	*:before, *:after {
+			-webkit-box-sizing: border-box;
+			box-sizing: border-box;
+ }
 	a {
-		color: #27ae60;
-		text-decoration: none;
-	}
-	a:hover,
+			color: #27ae60;
+			text-decoration: none;
+ }
+	a:hover, a:focus {
+			color: #19703e;
+			text-decoration: underline;
+ }
 	a:focus {
-		color: #19703e;
-		text-decoration: underline;
-	}
-	a:focus {
-		outline: thin dotted;
-		outline: 5px auto -webkit-focus-ring-color;
-		outline-offset: -2px;
-	}
+			outline: thin dotted;
+			outline: 5px auto -webkit-focus-ring-color;
+			outline-offset: -2px;
+ }
 	h2 {
-		font-family: inherit;
-		font-weight: 500;
-		line-height: 1.1;
-		color: inherit;
-	}
+			font-family: inherit;
+			font-weight: 500;
+			line-height: 1.1;
+			color: inherit;
+ }
 	h2 {
-		margin-top: 20px;
-		margin-bottom: 10px;
-	}
+			margin-top: 20px;
+			margin-bottom: 10px;
+ }
 	h2 {
-		font-size: 30px;
-	}
+			font-size: 30px;
+ }
 	p {
-		margin: 0 0 10px;
-	}
+			margin: 0 0 10px;
+ }
 	.btn {
-		display: inline-block;
-		margin-bottom: 0;
-		font-weight: normal;
-		text-align: center;
-		vertical-align: middle;
-		cursor: pointer;
-		background-image: none;
-		border: 1px solid transparent;
-		white-space: nowrap;
-		padding: 6px 12px;
-		font-size: 14px;
-		line-height: 1.42857143;
-		border-radius: 4px;
-		-webkit-user-select: none;
-		-moz-user-select: none;
-		-ms-user-select: none;
-		user-select: none;
-	}
-	.btn:focus,
-	.btn:active:focus {
-		outline: thin dotted;
-		outline: 5px auto -webkit-focus-ring-color;
-		outline-offset: -2px;
-	}
-	.btn:hover,
-	.btn:focus {
-		color: #333;
-		text-decoration: none;
-	}
+			display: inline-block;
+			margin-bottom: 0;
+			font-weight: normal;
+			text-align: center;
+			vertical-align: middle;
+			cursor: pointer;
+			background-image: none;
+			border: 1px solid transparent;
+			white-space: nowrap;
+			padding: 6px 12px;
+			font-size: 14px;
+			line-height: 1.42857143;
+			border-radius: 4px;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			user-select: none;
+ }
+	.btn:focus, .btn:active:focus {
+			outline: thin dotted;
+			outline: 5px auto -webkit-focus-ring-color;
+			outline-offset: -2px;
+ }
+	.btn:hover, .btn:focus {
+			color: #333;
+			text-decoration: none;
+ }
 	.btn:active {
-		outline: 0;
-		background-image: none;
-		-webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-		box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-	}
+			outline: 0;
+			background-image: none;
+			-webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+			box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+ }
 	a {
-		color: #637883;
-		cursor: pointer;
-	}
+			color: #637883;
+			cursor: pointer;
+ }
 	a:hover {
-		color: #637883;
-	}
-	a,
-	a:hover,
-	a:focus {
-		outline: none!important;
-	}
+			color: #637883;
+ }
+	a, a:hover, a:focus {
+			outline: none!important;
+ }
 	h2 {
-		margin: 0;
-	}
+			margin: 0;
+ }
 	p {
-		margin: 0;
-		line-height: 1.5em;
-		font-size: 23px;
-	}
-	.btn {
-		-webkit-transition: all .25s;
-		-o-transition: all .25s;
-		transition: all .25s;
-		height: 50px;
-		padding: 6px;
-		background: #c5841e;
-		border-radius: 0;
-		color: #f6f6f7;
-		font-size: 18px;
-		font-family: "Brandon Grot Bold";
-		line-height: 37px;
-		outline: none;
-	}
-	.btn:hover {
-		-webkit-transition: all .25s;
-		-o-transition: all .25s;
-		transition: all .25s;
-		background: none!important;
-		color: #c5841e;
-		border: 1px solid #c5841e;
-	}
-	.btn-gray {
-		background: #52555c;
-		color: #fff;
-	}
-	.home-events-heading {
-		font-size: 45px;
-		font-family: "Baskerville Italic";
-		margin-bottom: 32px;
-	}
-	.home-event-outer {
-		margin-bottom: 6px;
-		height: auto;
-		overflow: hidden;
-		position: relative;
-	}
-	.home-event-left {
-		padding-top: 32px;
-	}
-	.event-left-item {
-		position: absolute;
-		top: 0;
-		left: 0;
-		height: 100%;
-	}
-	.event-left-item,
-	.event-right-item {
-		float: left;
-	}
-	
-	.event-right-item {
-		height: auto;
-		min-height: 100px;
-		background: #fff;
-		width: 100%;
-		padding: 15px 15px 15px 115px;
-	}
-	.event-item-date,
-	.event-item-month {
-		width: 100px;
-		height: 50%;
-		color: #fff;
-		text-align: center;
-		display: table;
-	}
-	.evente-right-heading {
-		font-size: 24px;
-		font-family: "Brandon Grot Bold";
-		text-transform: uppercase;
-		margin-bottom: 0;
-	}
-	.event-right-item p {
-		font-size: 18px;
-		font-family: "Baskerville Regular";
-		line-height: 1.2em;
-	}
-	.small-church .event-item-date {
-		background: #637883;
-	}
-	.small-church .event-item-month {
-		background: #98b4c2;
-	}
-	.large-church .event-item-date {
-		background: #53555c;
-	}
-	.large-church .event-item-month {
-		background: #78818c;
-	}
-	.event-item-date span {
-		font-size: 26px;
-		font-family: "Baskerville Italic";
-		line-height: 1;
-		height: 100%;
-		display: table-cell;
-		vertical-align: middle;
-	}
-	.event-item-month span {
-		font-size: 21px;
-		font-family: "Brandon Grot Bold";
-		line-height: 1;
-		text-transform: uppercase;
-		display: table-cell;
-		vertical-align: middle;
-	}
-	.home-events-heading span {
-		font-family: "Brandon Grot Bold";
-		text-transform: uppercase;
-	}
-	.home-events-section .btn-gray {
-		width: 99%;
-		background: #0e4f88;
-		text-transform: uppercase;
-	}
-	@media (max-width:1024px) {
-		.event-right-item {
-			padding-left: 112px;
-		}
-		.event-item-date,
-		.event-item-month {
-			width: 80px;
-		}
-		.event-right-item {
-			font-size: 24px;
-		}
-	}
-	@media (max-width:980px) {
-		.home-events-section .btn-gray {
-			width: 100%;
-		}
-		.event-item-date span {
-			font-size: 40px;
-		}
-		.event-item-month span {
-			font-size: 25px;
-		}
-		.evente-right-heading {
-			font-size: 25px;
-		}
-	}
-	@media (max-width:360px) {
-		.evente-right-heading {
+			margin: 0;
+			line-height: 1.5em;
 			font-size: 23px;
-		}
-	}
-	@media (max-width:320px) {
-		.evente-right-heading {
+ }
+	.btn {
+			-webkit-transition: all .25s;
+			-o-transition: all .25s;
+			transition: all .25s;
+			height: 50px;
+			padding: 6px;
+			background: #c5841e;
+			border-radius: 0;
+			color: #f6f6f7;
+			font-size: 18px;
+			font-family: "Brandon Grot Bold";
+			line-height: 37px;
+			outline: none;
+ }
+	.btn:hover {
+			-webkit-transition: all .25s;
+			-o-transition: all .25s;
+			transition: all .25s;
+			background: none!important;
+			color: #c5841e;
+			border: 1px solid #c5841e;
+ }
+	.btn-gray {
+			background: #52555c;
+			color: #fff;
+ }
+	.home-events-heading {
+			font-size: 45px;
+			font-family: "Baskerville Italic";
+			margin-bottom: 32px;
+ }
+	.home-event-outer {
+			margin-bottom: 6px;
+			height: auto;
+			overflow: hidden;
+			position: relative;
+ }
+	.home-event-left {
+			padding-top: 32px;
+ }
+	.event-left-item {
+			position: absolute;
+			top: 0;
+			left: 0;
+			height: 100%;
+ }
+	.event-left-item, .event-right-item {
+			float: left;
+ }
+	.event-right-item {
+			height: auto;
+			min-height: 100px;
+			background: #fff;
+			width: 100%;
+			padding: 15px 15px 15px 115px;
+ }
+	.event-item-date, .event-item-month {
+			width: 100px;
+			height: 50%;
+			color: #fff;
+			text-align: center;
+			display: table;
+ }
+	.evente-right-heading {
+			font-size: 24px;
+			font-family: "Brandon Grot Bold";
+			text-transform: uppercase;
+			margin-bottom: 0;
+ }
+	.event-right-item p {
+			font-size: 18px;
+			font-family: "Baskerville Regular";
+			line-height: 1.2em;
+ }
+	.small-church .event-item-date {
+			background: #637883;
+ }
+	.small-church .event-item-month {
+			background: #98b4c2;
+ }
+	.large-church .event-item-date {
+			background: #53555c;
+ }
+	.large-church .event-item-month {
+			background: #78818c;
+ }
+	.event-item-date span {
+			font-size: 26px;
+			font-family: "Baskerville Italic";
+			line-height: 1;
+			height: 100%;
+			display: table-cell;
+			vertical-align: middle;
+ }
+	.event-item-month span {
 			font-size: 21px;
-		}
-	}
+			font-family: "Brandon Grot Bold";
+			line-height: 1;
+			text-transform: uppercase;
+			display: table-cell;
+			vertical-align: middle;
+ }
+	.home-events-heading span {
+			font-family: "Brandon Grot Bold";
+			text-transform: uppercase;
+ }
+	.home-events-section .btn-gray {
+			width: 99%;
+			background: #0e4f88;
+			text-transform: uppercase;
+ }
+	@media (max-width:1024px) {
+			.event-right-item {
+					padding-left: 112px;
+		 }
+			.event-item-date, .event-item-month {
+					width: 80px;
+		 }
+			.event-right-item {
+					font-size: 24px;
+		 }
+ }
+	@media (max-width:980px) {
+			.home-events-section .btn-gray {
+					width: 100%;
+		 }
+			.event-item-date span {
+					font-size: 40px;
+		 }
+			.event-item-month span {
+					font-size: 25px;
+		 }
+			.evente-right-heading {
+					font-size: 25px;
+		 }
+ }
+	@media (max-width:360px) {
+			.evente-right-heading {
+					font-size: 23px;
+		 }
+ }
+	@media (max-width:320px) {
+			.evente-right-heading {
+					font-size: 21px;
+		 }
+ }
 }
-
-
 /*! CSS Used fontfaces */
-
 @font-face {
 	font-family: "Brandon Grot Bold";
 	src: url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/c12a6d37-72c1-408b-9ca9-32946956c57f.eot#iefix");
 	src: url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/c12a6d37-72c1-408b-9ca9-32946956c57f.eot#iefix") format("eot"), url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/4f2d0548-c7dc-459b-a2e0-e86656a10ded.woff") format("woff"), url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/dc21d9e5-516f-4e7e-9a84-7be79a44c2dd.ttf") format("truetype"), url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/a9bdb836-ee14-494d-8c69-5617c5720992.svg#a9bdb836-ee14-494d-8c69-5617c5720992") format("svg");
 }
-
 @font-face {
 	font-family: "Baskerville Italic";
 	src: url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/f0bf387a-6de1-402c-a63c-04664681e924.eot#iefix");
 	src: url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/f0bf387a-6de1-402c-a63c-04664681e924.eot#iefix") format("eot"), url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/11514d41-5158-4a68-8f27-9202cc7fc001.woff") format("woff"), url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/b62c4ed0-7687-4a1b-840d-00a34f2d16a2.ttf") format("truetype"), url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/ede983d0-3356-4a76-956b-4131479e2d55.svg#ede983d0-3356-4a76-956b-4131479e2d55") format("svg");
 }
-
 @font-face {
 	font-family: "Baskerville Regular";
 	src: url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/8dc59876-75a4-4e80-bd1a-735d5f043beb.eot#iefix");
 	src: url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/8dc59876-75a4-4e80-bd1a-735d5f043beb.eot#iefix") format("eot"), url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/9df317a3-a79e-422e-b4e2-35ccd29cd5b7.woff") format("woff"), url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/32d18512-4cc1-4c1c-a041-e595f26d1b96.ttf") format("truetype"), url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/cf682c43-15a5-45c0-934e-8f899e561e1f.svg#cf682c43-15a5-45c0-934e-8f899e561e1f") format("svg");
 }
-
-
-
-/* daily events  */
-
+/* daily events */
 img {
-  border: 0;
+	border: 0;
 }
 @media print {
-  * {
-    text-shadow: none!important;
-    color: #000!important;
-    background: transparent!important;
-    -webkit-box-shadow: none!important;
-    box-shadow: none!important;
-  }
-  img {
-    page-break-inside: avoid;
-  }
-  img {
-    max-width: 100%!important;
-  }
-  p,
-  h2 {
-    orphans: 3;
-    widows: 3;
-  }
-  h2 {
-    page-break-after: avoid;
-  }
+	* {
+			text-shadow: none!important;
+			color: #000!important;
+			background: transparent!important;
+			-webkit-box-shadow: none!important;
+			box-shadow: none!important;
+ }
+	img {
+			page-break-inside: avoid;
+ }
+	img {
+			max-width: 100%!important;
+ }
+	p, h2 {
+			orphans: 3;
+			widows: 3;
+ }
+	h2 {
+			page-break-after: avoid;
+ }
 }
 * {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
 }
-*:before,
-*:after {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+*:before, *:after {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
 }
 img {
-  vertical-align: middle;
+	vertical-align: middle;
 }
 .img-responsive {
-  display: block;
-  width: 100% \9;
-  max-width: 100%;
-  height: auto;
+	display: block;
+	width: 100% \9;
+	max-width: 100%;
+	height: auto;
 }
 h2 {
-  font-family: inherit;
-  font-weight: 500;
-  line-height: 1.1;
-  color: inherit;
+	font-family: inherit;
+	font-weight: 500;
+	line-height: 1.1;
+	color: inherit;
 }
 h2 {
-  margin-top: 20px;
-  margin-bottom: 10px;
+	margin-top: 20px;
+	margin-bottom: 10px;
 }
 h2 {
-  font-size: 30px;
+	font-size: 30px;
 }
 p {
-  margin: 0 0 10px;
+	margin: 0 0 10px;
 }
 .row {
-  margin-left: -15px;
-  margin-right: -15px;
+	margin-left: -15px;
+	margin-right: -15px;
 }
 .col-sm-4 {
-  position: relative;
-  min-height: 1px;
-  padding-left: 15px;
-  padding-right: 15px;
+	position: relative;
+	min-height: 1px;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 @media (min-width:768px) {
-  .col-sm-4 {
-    float: left;
-  }
-  .col-sm-4 {
-    width: 33.33333333%;
-  }
+	.col-sm-4 {
+			float: left;
+ }
+	.col-sm-4 {
+			width: 33.33333333%;
+ }
 }
 @media (min-width:992px) {
-  .col-md-push-2 {
-    left: 16.66666667%;
-  }
+	.col-md-push-2 {
+			left: 16.66666667%;
+ }
 }
-.row:before,
-.row:after {
-  content: " ";
-  display: table;
+.row:before, .row:after {
+	content: " ";
+	display: table;
 }
 .row:after {
-  clear: both;
+	clear: both;
 }
 h2 {
-  margin: 0;
+	margin: 0;
 }
 p {
-  margin: 0;
-  line-height: 1.5em;
-  font-size: 23px;
+	margin: 0;
+	line-height: 1.5em;
+	font-size: 23px;
 }
 .main-wrapper .row {
-  margin: 0;
+	margin: 0;
 }
 @media (min-width:768px) and (max-width:1005px) {
-  .service-item {
-    min-height: 440px;
-  }
+	.service-item {
+			min-height: 440px;
+ }
 }
 @media screen and (min-width:1006px) {
-  .service-item {
-    min-height: 518px;
-  }
+	.service-item {
+			min-height: 518px;
+ }
 }
 .service-item {
-  padding-bottom: 25px;
+	padding-bottom: 25px;
 }
 @media screen and (max-width:767px) {
-  .service-item {
-    margin-bottom: 10px;
-  }
+	.service-item {
+			margin-bottom: 10px;
+ }
 }
 .service-item-image {
-  margin-bottom: 15px;
+	margin-bottom: 15px;
 }
 .service-item-heading {
-  font-size: 29px;
-  font-family: "Baskerville Italic";
-  margin-bottom: 10px;
+	font-size: 29px;
+	font-family: "Baskerville Italic";
+	margin-bottom: 10px;
 }
 @media (max-width:985px) {
-  .service-item-heading {
-    font-size: 18px;
-    padding: 0 5px;
-  }
+	.service-item-heading {
+			font-size: 18px;
+			padding: 0 5px;
+ }
 }
 @media (max-width:768px) {
-  .service-item-heading {
-    font-size: 20px;
-  }
+	.service-item-heading {
+			font-size: 20px;
+ }
 }
 .service-item-heading span {
-  font-family: "Brandon Grot Bold";
-  text-transform: uppercase;
+	font-family: "Brandon Grot Bold";
+	text-transform: uppercase;
 }
 .service-item p {
-  font-size: 20px;
-  font-family: "Baskerville Regular";
-  margin: 0 25px;
-  line-height: 1em;
+	font-size: 20px;
+	font-family: "Baskerville Regular";
+	margin: 0 25px;
+	line-height: 1em;
 }
 .service-item .service-time {
-  margin-bottom: 10px;
+	margin-bottom: 10px;
 }
 .service-item-outer .gray {
-  background: #53555c;
-  color: #fff;
+	background: #53555c;
+	color: #fff;
 }
 .service-item-outer .orange {
-  background: #98b4c2;
-  color: #fff;
+	background: #98b4c2;
+	color: #fff;
 }
 @media (max-width:980px) {
-  .service-item p {
-    margin: 0 20px;
-  }
+	.service-item p {
+			margin: 0 20px;
+ }
 }
 @media (max-width:768px) {
-  .service-item-image img {
-    width: 100%;
-  }
+	.service-item-image img {
+			width: 100%;
+ }
 }
 @media (max-width:640px) {
-  .service-item-image img {
-    width: 100%;
-  }
+	.service-item-image img {
+			width: 100%;
+ }
 }
 .content img {
-  max-width: 100%;
-  height: auto;
+	max-width: 100%;
+	height: auto;
 }
-
-
-
 /*! CSS Used fontfaces */
-
 @font-face {
-font-family: "Baskerville Italic";
-src: url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/f0bf387a-6de1-402c-a63c-04664681e924.eot#iefix");
-src: url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/f0bf387a-6de1-402c-a63c-04664681e924.eot#iefix") format("eot"), url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/11514d41-5158-4a68-8f27-9202cc7fc001.woff") format("woff"), url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/b62c4ed0-7687-4a1b-840d-00a34f2d16a2.ttf") format("truetype"), url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/ede983d0-3356-4a76-956b-4131479e2d55.svg#ede983d0-3356-4a76-956b-4131479e2d55") format("svg");
+	font-family: "Baskerville Italic";
+	src: url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/f0bf387a-6de1-402c-a63c-04664681e924.eot#iefix");
+	src: url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/f0bf387a-6de1-402c-a63c-04664681e924.eot#iefix") format("eot"), url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/11514d41-5158-4a68-8f27-9202cc7fc001.woff") format("woff"), url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/b62c4ed0-7687-4a1b-840d-00a34f2d16a2.ttf") format("truetype"), url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/ede983d0-3356-4a76-956b-4131479e2d55.svg#ede983d0-3356-4a76-956b-4131479e2d55") format("svg");
 }
-
 @font-face {
-font-family: "Brandon Grot Bold";
-src: url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/c12a6d37-72c1-408b-9ca9-32946956c57f.eot#iefix");
-src: url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/c12a6d37-72c1-408b-9ca9-32946956c57f.eot#iefix") format("eot"), url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/4f2d0548-c7dc-459b-a2e0-e86656a10ded.woff") format("woff"), url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/dc21d9e5-516f-4e7e-9a84-7be79a44c2dd.ttf") format("truetype"), url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/a9bdb836-ee14-494d-8c69-5617c5720992.svg#a9bdb836-ee14-494d-8c69-5617c5720992") format("svg");
+	font-family: "Brandon Grot Bold";
+	src: url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/c12a6d37-72c1-408b-9ca9-32946956c57f.eot#iefix");
+	src: url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/c12a6d37-72c1-408b-9ca9-32946956c57f.eot#iefix") format("eot"), url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/4f2d0548-c7dc-459b-a2e0-e86656a10ded.woff") format("woff"), url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/dc21d9e5-516f-4e7e-9a84-7be79a44c2dd.ttf") format("truetype"), url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/a9bdb836-ee14-494d-8c69-5617c5720992.svg#a9bdb836-ee14-494d-8c69-5617c5720992") format("svg");
 }
-
 @font-face {
-font-family: "Baskerville Regular";
-src: url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/8dc59876-75a4-4e80-bd1a-735d5f043beb.eot#iefix");
-src: url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/8dc59876-75a4-4e80-bd1a-735d5f043beb.eot#iefix") format("eot"), url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/9df317a3-a79e-422e-b4e2-35ccd29cd5b7.woff") format("woff"), url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/32d18512-4cc1-4c1c-a041-e595f26d1b96.ttf") format("truetype"), url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/cf682c43-15a5-45c0-934e-8f899e561e1f.svg#cf682c43-15a5-45c0-934e-8f899e561e1f") format("svg");
+	font-family: "Baskerville Regular";
+	src: url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/8dc59876-75a4-4e80-bd1a-735d5f043beb.eot#iefix");
+	src: url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/8dc59876-75a4-4e80-bd1a-735d5f043beb.eot#iefix") format("eot"), url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/9df317a3-a79e-422e-b4e2-35ccd29cd5b7.woff") format("woff"), url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/32d18512-4cc1-4c1c-a041-e595f26d1b96.ttf") format("truetype"), url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/cf682c43-15a5-45c0-934e-8f899e561e1f.svg#cf682c43-15a5-45c0-934e-8f899e561e1f") format("svg");
 }
-
-
-
-
-
- 
-
-
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+	animation: App-logo-spin infinite 20s linear;
+	height: 80px;
 }
-
 .App-header {
-  background: url("../src/churchfront.jpg");
-  height: 600px;
-  padding: 20px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+	background: url("../src/churchfront.jpg");
+	height: 600px;
+	padding: 20px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
-
 .Introduction-section {
-  background-color: #222;
-  height: auto;
-  padding: 20px;
-  color: white;
+	background-color: #222;
+	height: auto;
+	padding: 20px;
+	color: white;
 }
-
 .Calendar-section {
-  background-color: #e9ecf0;
-  height: auto;
-  padding: 20px;
-  color: white;
+	background-color: #e9ecf0;
+	height: auto;
+	padding: 20px;
+	color: white;
 }
-
 .App-intro {
-  font-size: large;
+	font-size: large;
 }
 
+/* BURGER MENU */
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+	from {
+			transform: rotate(0deg);
+ }
+	to {
+			transform: rotate(360deg);
+ }
 }
-
 .bm-burger-button {
-  position: fixed;
-  width: 36px;
-  height: 30px;
-  left: 36px;
-  top: 36px;
+	position: fixed;
+	width: 36px;
+	height: 30px;
+	left: 36px;
+	top: 36px;
 }
-
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
-  background: #373a47;
+	background: #373a47;
 }
-
 /* Position and sizing of clickable cross button */
 .bm-cross-button {
-  height: 24px;
-  width: 24px;
+	height: 24px;
+	width: 24px;
 }
-
 /* Color/shape of close button cross */
 .bm-cross {
-  background: #ffffff;
+	background: #ffffff;
 }
-
 /* General sidebar styles */
 .bm-menu {
-  background: #00607a;
-  padding: 2.5em 1.5em 0;
-  font-size: 1.15em;
+	background: #00607a;
+	padding: 2.5em 1.5em 0;
+	font-size: 1.15em;
 }
-
 /* Morph shape necessary with bubble or elastic */
 .bm-morph-shape {
-  fill: #373a47;
+	fill: #373a47;
 }
-
 /* Wrapper for item list */
 .bm-item-list {
-  color: #b8b7ad;
-  padding: 0.8em;
+	color: #b8b7ad;
+	padding: 0.8em;
 }
-
 /* Styling of overlay */
 .bm-overlay {
-  background: rgba(0, 0, 0, 0.3);
+	background: rgba(0, 0, 0, 0.3);
 }
-
-page-wrap {
-background-image: '../public/forest.jpg'
-}
-
-
 
 .semi-transparent-button {
-  display: block;
-  box-sizing: border-box;
-  margin: 0 auto;
-  padding: 8px;
-  width: 90%;
-  max-width: 200px;
-  background: rgba( 0.5);
-  border-radius: 8px;
-  border: 1px solid #fff;
-  color: #fff;
-  text-align: center;
-  font-size: 20px;
-  text-decoration: none;
-  letter-spacing: 1px;
+	display: block;
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 8px;
+	width: 90%;
+	max-width: 200px;
+	background: rgba( 0.5);
+	border-radius: 8px;
+	border: 1px solid #fff;
+	color: #fff;
+	text-align: center;
+	font-size: 20px;
+	text-decoration: none;
+	letter-spacing: 1px;
 	transition: all 0.3s ease-out;
-	
 }
-
-
 a:focus{
 	outline:thin dotted;
 	outline:5px auto -webkit-focus-ring-color;
@@ -779,30 +721,29 @@ p{
 	margin-bottom:10px;
 }
 @media (max-width:1024px){
-	 .home-video{
+	.home-video{
 			width:100%;
-	}
+ }
 }
 @media (max-width:980px){
-	 .newest-sermon-heading{
+	.newest-sermon-heading{
 			font-size:18px;
-	}
+ }
 }
 @media (max-width:640px){
-	 .home-video img{
+	.home-video img{
 			width:100%;
-	}
+ }
 }
 .content img{
 	max-width:100%;
 	height:auto;
 }
-
 /*! CSS Used fontfaces */
 @font-face{
-font-family:"Brandon Grot Bold";
-src:url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/c12a6d37-72c1-408b-9ca9-32946956c57f.eot#iefix");
-src:url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/c12a6d37-72c1-408b-9ca9-32946956c57f.eot#iefix") format("eot"),url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/4f2d0548-c7dc-459b-a2e0-e86656a10ded.woff") format("woff"),url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/dc21d9e5-516f-4e7e-9a84-7be79a44c2dd.ttf") format("truetype"),url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/a9bdb836-ee14-494d-8c69-5617c5720992.svg#a9bdb836-ee14-494d-8c69-5617c5720992") format("svg");
+	font-family:"Brandon Grot Bold";
+	src:url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/c12a6d37-72c1-408b-9ca9-32946956c57f.eot#iefix");
+	src:url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/c12a6d37-72c1-408b-9ca9-32946956c57f.eot#iefix") format("eot"),url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/4f2d0548-c7dc-459b-a2e0-e86656a10ded.woff") format("woff"),url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/dc21d9e5-516f-4e7e-9a84-7be79a44c2dd.ttf") format("truetype"),url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/a9bdb836-ee14-494d-8c69-5617c5720992.svg#a9bdb836-ee14-494d-8c69-5617c5720992") format("svg");
 }
 @font-face{
 	font-family:"Baskerville Italic";
@@ -814,6 +755,4 @@ src:url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/c
 	src:url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/8dc59876-75a4-4e80-bd1a-735d5f043beb.eot#iefix");
 	src:url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/8dc59876-75a4-4e80-bd1a-735d5f043beb.eot#iefix") format("eot"),url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/9df317a3-a79e-422e-b4e2-35ccd29cd5b7.woff") format("woff"),url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/32d18512-4cc1-4c1c-a041-e595f26d1b96.ttf") format("truetype"),url("https://go2cornerstone.com/wp-content/themes/cornerstone/assets/fonts/cf682c43-15a5-45c0-934e-8f899e561e1f.svg#cf682c43-15a5-45c0-934e-8f899e561e1f") format("svg");
 }
-
-/* footer  */
-
+/* footer */
