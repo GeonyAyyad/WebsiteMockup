@@ -1,5 +1,12 @@
 import React from "react";
 import "./EventSection.css";
+import {
+    AwesomeButton,
+    AwesomeButtonProgress,
+    AwesomeButtonShare,
+    } from 'react-awesome-button';
+    import 'react-awesome-button/dist/styles.css';
+    import 'react-awesome-button/dist/themes/theme-blue.css';
 
 
 const style = {
@@ -75,8 +82,9 @@ const EventSection = props =>
                         <p>Starts: 9:45 am Ends: 10:45 am</p>
                     </div>
                 </div>
+                <br />
                 
-                <a class="btn btn-gray" href="https://blessedsacrament-brooklyn.org/calendar/">View All Events</a>
+                <AwesomeButton type="primary" href="https://blessedsacrament-brooklyn.org/contact-us-directions/">This Week's Schedule </AwesomeButton>
                 
                 <br />
                 <br />

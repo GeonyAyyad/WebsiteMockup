@@ -6,7 +6,7 @@
   }
   
   body {
-    background: rgb(250, 250, 250) url(http://lorempixel.com/1920/1080/nature/);
+    /* background: rgb(250, 250, 250) url(http://lorempixel.com/1920/1080/nature/); */
     font-family: Lato, Helvetica, Arial, sans-serif;
   }
   
@@ -18,9 +18,7 @@
   }
   
   
-  /*======================================================
-                            Navbar
-    ======================================================*/
+  
   #navbar {
     background: white;
     color: rgb(13, 26, 38);
@@ -55,14 +53,11 @@
     letter-spacing: 1px;
     text-transform: uppercase;
   } @media(max-width: 768px) {
-      .logo {
-  /*       margin-left: 5px; */
-      }
+      
     }
   
   #navbar ul {
     display: inline-block;
-    float: right;
     list-style: none;
     /* margin-right: 14px; */
     margin-top: -2px;

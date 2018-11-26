@@ -8,6 +8,7 @@ import CarouselComponent from './components/CarouselComponent';
 import Hero from './components/Hero';
 import Blog from './components/Blog';
 import Navbar from './components/Navbar';
+import LiveFeed from './components/LiveFeed';
 import { Well, Button, Jumbotron, Col, SplitButton, MenuItem, Glyphicon, ButtonToolbar, Row, ButtonGroup, Carousel, DropdownButton, Dropdown  } from 'react-bootstrap';
 import { slideInLeft, slideInRight } from 'react-animations';
 import Radium, {StyleRoot} from 'radium';
@@ -75,7 +76,7 @@ return (
 
 {/* church calendar section */}
 < Calendar />
-
+<LiveFeed />
 {/* footer */}
 < Footer />
 </main>

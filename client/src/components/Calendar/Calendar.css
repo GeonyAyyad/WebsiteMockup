@@ -1,6 +1,4 @@
-/*! CSS Used from: https://go2cornerstone.com/wp-content/themes/cornerstone/assets/css/main.min.css?892d3dcf3aebf4f40a0ba4270fd1b97d ;
- media=all */
- @media all{
+@media all{
     img{
        border:0;
    }
@@ -117,6 +115,8 @@
        font-size:45px;
        font-family:"Baskerville Italic";
        margin-bottom:35px;
+       color: #53555c;
+       text-align: center;
    }
     .weekend-services-heading span{
        font-family:"Brandon Grot Bold";
@@ -144,8 +144,9 @@
    }
     .service-item-heading{
        font-size:29px;
-       font-family:"Baskerville Italic";
+       font-family:"Brandon Grot Bold";
        margin-bottom:10px;
+       text-align: center;
    }
     @media (max-width:985px){
         .service-item-heading{
@@ -164,7 +165,7 @@
    }
     .service-item p{
        font-size:20px;
-       font-family:"Baskerville Regular";
+       font-family:"Open Sans";
        margin:0 25px;
        line-height:1em;
    }
@@ -176,7 +177,7 @@
        color:#fff;
    }
     .service-item-outer .orange{
-       background:#c5841e;
+       background:#7a8897;
        color:#fff;
    }
     @media (max-width:980px){

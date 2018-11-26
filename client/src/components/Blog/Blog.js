@@ -1,5 +1,14 @@
 import React from "react";
 import "./Blog.css";
+import {
+  AwesomeButton,
+  AwesomeButtonProgress,
+  AwesomeButtonShare,
+  } from 'react-awesome-button';
+  import 'react-awesome-button/dist/styles.css';
+  import 'react-awesome-button/dist/themes/theme-blue.css';
+
+
 
 
 const style = {
@@ -25,14 +34,15 @@ const Blog = props =>
 
   </a>
 
-  <h5 class="most-recent-heading">Our School</h5>
+  <h5 class="most-recent-heading">OUR SCHOOL</h5>
   <h2 class="newest-sermon-heading">Academic Excellence and Social Commitment</h2>
   <p>
 As a Catholic Academy, it is dedicated to sowing the seeds and laying the foundation, which will help students meet the challenges of the 21st Century. This is accomplished through an educational program which emphasizes formation in the Catholic Faith, academic excellence and social commitment.
 </p>
 <br />
-  <a class="btn btn-green" href="https://go2cornerstone.com/help-without-hurting/">See More</a>
-
+<AwesomeButton type="primary" href="https://blessedsacrament-brooklyn.org/contact-us-directions/">Past Sermons </AwesomeButton>
+<br />
+<br />
   
                                 
   

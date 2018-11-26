@@ -1,0 +1,187 @@
+@media all{
+    .aws-btn {
+
+        --button-default-height: 60px;
+        --button-default-font-size: 18px;
+        --button-default-border-radius: 16px;
+        --button-horizontal-padding: 28px;
+        --button-raise-level: 4px;
+        --button-hover-pressure: 4;
+        --transform-speed: 0.6s;
+        --button-primary-color: #1e88e5;
+        --button-primary-color-dark: #1360a4;
+        --button-primary-color-light: #ffffff;
+        --button-primary-color-hover: #187bd1;
+        --button-primary-border: none;
+        --button-secondary-color: #f2f6f9;
+        --button-secondary-color-dark: #1360a4;
+        --button-secondary-color-light: #1e88e5;
+        --button-secondary-color-hover: #e1eaf1;
+        --button-secondary-border: 2px solid #1e88e5;
+        --button-anchor-color: #0e4f88;
+        --button-anchor-color-dark: #072743;
+        --button-anchor-color-light: #ffffff;
+        --button-anchor-color-hover: #0d4a7f;
+        --button-anchor-border: none;
+        }
+        
+        a{
+       background-color:transparent;
+   }
+    a:active,a:hover{
+       outline-width:0;
+   }
+    img{
+       border-style:none;
+   }
+    hr{
+       box-sizing:content-box;
+       height:0;
+       overflow:visible;
+   }
+    *{
+       box-sizing:border-box;
+   }
+    a{
+       color:inherit;
+   }
+    h2{
+       font-family:"Sentinel SSm A","Sentinel SSm B";
+       font-weight:700;
+   }
+    p{
+       margin:1.25em 0;
+   }
+    .parallax{
+       background-attachment:fixed;
+       background-repeat:no-repeat;
+       background-size:cover;
+   }
+    .button{
+       display:inline-block;
+       border:2px solid #a2a3a8;
+       border-radius:3px;
+       padding:10px 20px;
+       min-width:200px;
+       text-transform:uppercase;
+       text-align:center;
+       margin:20px 0;
+       color:#a2a3a8;
+       text-decoration:none;
+       font-weight:700;
+       font-size:.682em;
+   }
+    .button+.button{
+       margin-left:auto;
+       margin-right:auto;
+       margin-top:0;
+   }
+    .buttonWrap{
+       display:flex;
+       flex-direction:column;
+       align-items:center;
+       justify-content:center;
+   }
+    ::-webkit-input-placeholder{
+       font-weight:700;
+   }
+    :-moz-placeholder{
+       font-weight:700;
+   }
+    ::-moz-placeholder{
+       font-weight:700;
+   }
+    :-ms-input-placeholder{
+       font-weight:700;
+   }
+    @media all and (min-width:486px){
+        .button,.button+.button{
+           display:inline-block;
+           margin:20px 10px;
+       }
+        .button:first-of-type{
+           margin-left:0;
+       }
+        .button:last-of-type{
+           margin-right:0;
+       }
+        .buttonWrap{
+           flex-direction:row;
+           flex-wrap:wrap;
+       }
+   }
+    @media all and (min-width:600px){
+        .button:not([class^=pika]){
+           transition:background-color .2s linear,border-color .2s linear,color .2s linear;
+           -webkit-transition:background-color .2s linear,border-color .2s linear,color .2s linear;
+       }
+        .button:not([class^=pika]):hover{
+           background:#FFF;
+           color:#3c3f47;
+           border-color:#FFF;
+           transition:background-color .3s linear,border-color .3s linear,color .3s linear;
+           -webkit-transition:background-color .3s linear,border-color .3s linear,color .3s linear;
+       }
+   }
+    #music{
+       position:relative;
+       overflow:hidden;
+       padding:90px 30px;
+   }
+    #music>div:first-child{
+       position:absolute;
+       top:-10px;
+       left:0;
+       right:0;
+       bottom:-10px;
+       background-image:url(https://media.swncdn.com/cms/CW/faith/37943-blurry-church-1200.1200w.tn.jpg);
+   }
+    #music .container{
+       position:relative;
+   }
+    #music .container>div{
+       text-align:center;
+   }
+    #music .container>div+div{
+       padding-top:40px;
+   }
+    #music h2{
+       font-size:2.636em;
+       font-weight:800;
+       line-height:1em;
+       margin:0 0 30px;
+   }
+    #music p{
+       max-width:600px;
+       margin:0 auto 30px;
+   }
+    #music hr{
+       border:none;
+       height:2px;
+       width:78px;
+       background:#46d5a6;
+       background:linear-gradient(to right,rgb(70,213,166) 20%,rgb(100,197,208) 80%);
+   }
+    #music img{
+       width:100%;
+       max-width:330px;
+       height:auto;
+   }
+    @media all and (min-width:900px){
+        #music .container>div+div{
+           padding-top:0;
+       }
+        #music .container>div{
+           display:inline-block;
+           width:50%;
+           vertical-align:middle;
+       }
+   }
+    .parallax{
+       position:relative;
+       overflow:hidden;
+       padding:40px 0;
+       min-height:200px;
+       text-align:center;
+   }
+}

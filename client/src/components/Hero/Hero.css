@@ -23,3 +23,11 @@
     --button-anchor-color-hover: #0d4a7f;
     --button-anchor-border: none;
     }
+
+    .show-grid {
+        text-align: center;
+    }
+
+    .contact {
+        margin-right: 10px;
+    }

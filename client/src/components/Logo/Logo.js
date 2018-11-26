@@ -1,4 +1,6 @@
-import React from "react"
+import React from "react";
+import "./Logo.css";
+
 
 const style = {
   width: "700px",
@@ -11,7 +13,7 @@ const style = {
 
 const Logo = props =>
   <div>
-    <img style={style} src="blessedsacrement.png" />
+    <img className="image-style" src="blessedsacrement.png" />
   
   </div>;
 
