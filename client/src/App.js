@@ -7,6 +7,7 @@ import EventSection from './components/EventSection';
 import CarouselComponent from './components/CarouselComponent';
 import Hero from './components/Hero';
 import Blog from './components/Blog';
+import Donate from './components/Donate';
 import Navbar from './components/Navbar';
 import LiveFeed from './components/LiveFeed';
 import { Well, Button, Jumbotron, Col, SplitButton, MenuItem, Glyphicon, ButtonToolbar, Row, ButtonGroup, Carousel, DropdownButton, Dropdown  } from 'react-bootstrap';
@@ -29,12 +30,7 @@ return (
     outerContainerId={ "outer-container" } 
     customBurgerIcon={ <img src="./images/CCST4630-Circle-Icon.png" /> }>
     {/* <img width={200} height={100} alt="900x500" src="./images/blessedsacrement.png" /> */}
-    <a id="home" className="menu-item" href="/">Home</a>
-    <a id="about" className="menu-item" href="/about">About</a>
-    <a id="contact" className="menu-item" href="/contact">Contact</a>
-    <a onClick={ this.showSettings } className="menu-item--small" href="">Settings</a>
-    
-    <a onClick={ this.showSettings } className="menu-item--small" href="">Settings</a>
+    <Donate />
     </Menu>
     
     <main id="page-wrap">
@@ -70,6 +66,7 @@ return (
 {/* church calendar section */}
 < Calendar />
 <LiveFeed />
+{/* <Donate /> */}
 {/* footer */}
 < Footer />
 </main>

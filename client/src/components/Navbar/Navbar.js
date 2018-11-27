@@ -17,13 +17,14 @@ const Navbar = props =>
     <nav id="navbar" class="">
   <div class="nav-wrapper">
     <div class="logo">
-      <a href="#home"><i class="fas fa-chess-knight"></i> Logo</a>
+      <a href="#home"><i class="fas fa-chess-knight"></i> Blessed Sacrament</a>
     </div>
 
     <ul id="menu">
       <li><a href="#home">Home</a></li>
-      <li><a href="#services">Services</a></li>
-   <li><a href="#about">About</a></li>
+      <li><a href="#services">Events</a></li>
+      <li><a href="#services">Calendar</a></li>
+   <li><a href="#about">Live Service</a></li>
    <li><a href="#contact">Contact</a></li>
     </ul>
   </div>
