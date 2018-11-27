@@ -1,4 +1,11 @@
 @media all{
+    .Calendar-section {
+        background-color: #e9ecf0;
+        height: auto;
+        padding: 20px;
+        color: white;
+    }
+    
     img{
        border:0;
    }

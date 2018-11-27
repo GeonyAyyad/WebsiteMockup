@@ -27,6 +27,9 @@ const Hero = props =>
             <Logo />
             <div className="container">
                 <Row className="show-grid">
+                  <br />
+                  <br />
+                  <br /> 
                     <AwesomeButton className="contact" type="primary" href="https://blessedsacrament-brooklyn.org/contact-us-directions/">CONTACT US </AwesomeButton>
 
                     <AwesomeButton type="primary" href="https://www.pray.com/join-giving/?gclid=Cj0KCQiA_s7fBRDrARIsAGEvF8T0N0MfgWrQDW_D_GLjKW_5LujlU_015j0MUgGTVYwyUsW2FROZ2x4aAjcgEALw_wcB">GIVE </AwesomeButton>

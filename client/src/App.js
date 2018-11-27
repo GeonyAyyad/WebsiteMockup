@@ -13,14 +13,7 @@ import { Well, Button, Jumbotron, Col, SplitButton, MenuItem, Glyphicon, ButtonT
 import { slideInLeft, slideInRight } from 'react-animations';
 import Radium, {StyleRoot} from 'radium';
 const styles = {
-slideInLeft: {
-animation: 'x 1s',
-animationName: Radium.keyframes(slideInLeft, 'slideInLeft'),
-}
-, slideInRight: {
-animation: 'x 1.5s',
-animationName: Radium.keyframes(slideInRight, 'slideInRight')
-}
+
 }
 
 
@@ -33,19 +26,19 @@ return (
     <Menu
     left
     pageWrapId={ "page-wrap" }
-    outerContainerId={ "outer-container" } >
-    <img width={200} height={100} alt="900x500" src="./images/blessedsacrement.png" />
+    outerContainerId={ "outer-container" } 
+    customBurgerIcon={ <img src="./images/CCST4630-Circle-Icon.png" /> }>
+    {/* <img width={200} height={100} alt="900x500" src="./images/blessedsacrement.png" /> */}
     <a id="home" className="menu-item" href="/">Home</a>
     <a id="about" className="menu-item" href="/about">About</a>
     <a id="contact" className="menu-item" href="/contact">Contact</a>
     <a onClick={ this.showSettings } className="menu-item--small" href="">Settings</a>
-    <ButtonToolbar>
-    </ButtonToolbar>
+    
     <a onClick={ this.showSettings } className="menu-item--small" href="">Settings</a>
     </Menu>
     
     <main id="page-wrap">
-        
+<Navbar />        
 <Hero />
 {/* introduction section */}
 <div className="Introduction-section">

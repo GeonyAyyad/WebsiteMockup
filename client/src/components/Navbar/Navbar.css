@@ -22,7 +22,7 @@
   #navbar {
     background: white;
     color: rgb(13, 26, 38);
-    position: fixed;
+    position: relative;
     top: 0;
     height: 60px;
     line-height: 60px;
